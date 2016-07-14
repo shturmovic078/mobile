@@ -96,7 +96,7 @@ public class SearchContent {
 	      browser="browserIE11";
 	      driver.get(System.getProperty("BrandUrl"));
 	      //brand = System.getProperty("Brand");
-	  
+	      brand = System.getProperty("Brand");
 
 	  	System.out.println("The String is " +brand);
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
