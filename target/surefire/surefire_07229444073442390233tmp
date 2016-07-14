@@ -1,0 +1,9 @@
+#surefire_0
+#Tue May 17 11:53:33 EDT 2016
+BrandUrl=http\://author.oralbuk.pgsitecore.com/en-gb/search-page?term\=Oralb
+user.dir=/Users/agolubev1/Downloads/PnB/mobile
+Brand=OralbUK
+localRepository=/Users/agolubev1/.m2/repository
+suiteFile=products.xml
+basedir=/Users/agolubev1/Downloads/PnB/mobile
+Browser=firefox42
