@@ -1,22 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="Search Content on Desktop">
-   <test name="Search Content on Desktop">
-   
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+ 
+<suite name="Desktop Menu Click" verbose="1">
+    <parameter name="param" value="Test"/>
+    
+    
+    
      
-      
-      <classes>
-         <class name="brand.automation.SearchContent" />
-      </classes>
-      
-   </test>
+        
+    
+    <test name="Desktop Windows 8 IE 10">
+        <parameter name="browser" value="browserWindows8IE10"/>
+        <classes>
+            <class name="brand.automation.SearchContent"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    
    
-     
-   
-   
-   
-   
-   
-  
+    
+    
 </suite>
