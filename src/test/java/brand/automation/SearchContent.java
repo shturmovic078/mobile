@@ -1,5 +1,4 @@
 package brand.automation;
-
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.io.BufferedReader;
@@ -170,6 +169,5 @@ public class SearchContent {
 
 
 	}
-
 
 
